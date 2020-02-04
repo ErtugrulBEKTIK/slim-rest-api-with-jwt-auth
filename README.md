@@ -16,7 +16,11 @@ DB_PASS=""
 DB_NAME="db_name"
 ```
 
+You can get token by sending ```POST``` request to ```/auth``` endpoint.
 
+To use this token, set your request's ```Authorization``` header as ```Bearer your_token```
+
+The middleware in app does the control automatically.
 
 
 
