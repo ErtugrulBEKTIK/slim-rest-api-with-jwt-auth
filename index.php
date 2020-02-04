@@ -1,10 +1,11 @@
 <?php
 
 require './vendor/autoload.php';
-require './src/config/settings.php';
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
+
+require './src/config/settings.php';
 
 $app = new \Slim\App(['settings' => $settings]);
 
