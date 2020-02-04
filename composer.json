@@ -1,0 +1,8 @@
+{
+    "require": {
+        "slim/slim": "3.*",
+        "tuupola/slim-jwt-auth": "^2.4",
+        "vlucas/phpdotenv": "^4.1",
+        "firebase/php-jwt": "^5.0"
+    }
+}
