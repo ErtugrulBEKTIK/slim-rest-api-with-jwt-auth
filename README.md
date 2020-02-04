@@ -5,7 +5,7 @@ PHP Slim framework with json web token starter pack
 
 First run this code to install dependencies
 
-```php composer.phar install```
+```composer install```
 
 Create ```.env``` document in root directory and set these values according to your project
 ```
