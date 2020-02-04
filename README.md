@@ -1,7 +1,7 @@
 # slim-rest-api-with-jwt-auth
 PHP Slim framework with json web token starter pack
 
-###How To Use?
+### How To Use?
 
 First run this code to install dependencies
 
